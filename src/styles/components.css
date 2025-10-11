@@ -1,0 +1,11 @@
+@layer components {
+  .main-container {
+    @apply max-w-[160rem] h-full mx-auto;
+    padding: clamp(0.75rem, calc(0.75rem + ((1vw - 0.2rem) * 3)), 3.75rem);
+  }
+
+  .base-container {
+    @apply max-w-[160rem] h-full mx-auto;
+    padding-inline: clamp(0.75rem, calc(0.75rem + ((1vw - 0.2rem) * 3)), 3.75rem);
+  }
+}

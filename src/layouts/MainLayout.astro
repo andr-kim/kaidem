@@ -1,0 +1,24 @@
+---
+import "@/styles/global.css";
+import { ClientRouter } from "astro:transitions";
+import { themeInline } from "@/utils/theme-inline";
+import { Navbar } from "@/components/navbar";
+
+const { title = "Default" } = Astro.props;
+---
+
+<html lang="ru" class="dark">
+  <head>
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="viewport" content="width=device-width" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <script is:inline set:html={themeInline} />
+    <ClientRouter />
+  </head>
+  <body>
+    <Navbar client:load />
+    <slot />
+  </body>
+</html>

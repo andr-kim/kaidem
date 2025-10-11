@@ -1,0 +1,13 @@
+@layer base {
+  body {
+    @apply bg-background text-foreground;
+  }
+
+  h1 {
+    @apply font-semibold;
+  }
+
+  button {
+    @apply cursor-pointer;
+  }
+}
