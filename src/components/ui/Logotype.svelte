@@ -17,7 +17,7 @@
 <style>
   svg {
     width: auto;
-    height: 28px;
+    height: clamp(1rem, calc(1rem + ((1vw - 0.2rem) * 1.0714)), 1.75rem);
     color: var(--color-secondary);
   }
 </style>

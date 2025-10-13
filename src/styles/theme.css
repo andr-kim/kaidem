@@ -5,19 +5,12 @@
   --color-foreground: var(--color-black);
   --color-primary: #e13030;
   --color-secondary: var(--color-black);
-  --text-fluid-xs: clamp(
-    0.75rem,
-    calc(0.75rem + ((1vw - 0.2rem) * 0.75)),
-    1.5rem
-  ); /* 12px → 24px адаптивный размер */
+
+  --text-fluid-xs: clamp(0.75rem, calc(0.75rem + ((1vw - 0.2rem) * 1.0714)), 1.5rem); /* 12px → 24px адаптивный размер */
   --text-fluid-xs--line-height: 1.6;
 
-  --text-fluid-huge: clamp(
-    2.75rem,
-    calc(2.75rem + ((1vw - 0.2rem) * 2.75)),
-    5.5rem
-  ); /* 44px → 88px адаптивный размер */
-  --text-fluid-huge--line-height: 1.1;
+  --text-fluid-huge: clamp(2.25rem, calc(2.25rem + ((1vw - 0.2rem) * 4.6429)), 5.5rem); /* 44px → 88px адаптивный размер */
+  --text-fluid-huge--line-height: 1;
 
   --breakpoint-2xl: 1281px;
   --breakpoint-xl: 1025px;
