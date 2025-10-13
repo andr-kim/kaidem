@@ -59,7 +59,7 @@
 
 <button
   on:click={toggleTheme}
-  class="p-2 rounded-full bg-primary text-white transition-colors duration-300 hover:opacity-90"
+  class="justify-self-end w-fit p-2 rounded-full bg-primary text-white transition-colors duration-300 hover:opacity-90"
 >
   {nextLabel}
 </button>

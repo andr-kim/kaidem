@@ -1,10 +1,11 @@
 <script lang="ts">
-  import { Logotype, ThemeToggle } from "@/components/ui";
+  import { Logotype, Menu, ThemeToggle } from "@/components/ui";
 </script>
 
-<header class="fixed mx-auto w-full">
-  <div class="base-container flex items-center justify-between">
+<header class="fixed w-full">
+  <div class="base-container grid grid-cols-[1fr_auto_1fr] items-center">
     <Logotype />
+    <Menu />
     <ThemeToggle />
   </div>
 </header>

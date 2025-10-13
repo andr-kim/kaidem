@@ -6,6 +6,8 @@
   --color-primary: #e13030;
   --color-secondary: var(--color-black);
 
+  --color-muted-foreground: var(--color-stone-500);
+
   --text-fluid-xs: clamp(0.75rem, calc(0.75rem + ((1vw - 0.2rem) * 1.0714)), 1.5rem); /* 12px → 24px адаптивный размер */
   --text-fluid-xs--line-height: 1.6;
 
@@ -24,4 +26,6 @@
   --color-foreground: var(--color-white);
   --color-primary: #e13030;
   --color-secondary: var(--color-stone-100);
+
+  --color-muted-foreground: var(--color-stone-400);
 }
