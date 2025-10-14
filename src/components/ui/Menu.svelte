@@ -3,7 +3,7 @@
 </script>
 
 <nav aria-label="Основная навигация сайта">
-  <ul class="glass rounded-full py-2 px-5 flex gap-0.5 uppercase">
+  <ul class="glass rounded-full pt-2 pb-1.5 px-5 flex gap-0.5 uppercase">
     <li>
       <Link href="/services" variant="navlink" text="Услуги" />
     </li>

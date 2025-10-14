@@ -1,6 +1,10 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
+  --font-*: initial;
+  --font-primary-ru: "Sofia", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-primary-en: "Sofia Latin", "sans-serif";
+
   --color-background: var(--color-stone-50);
   --color-foreground: var(--color-black);
   --color-primary: #e13030;
