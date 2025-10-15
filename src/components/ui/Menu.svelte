@@ -2,8 +2,8 @@
   import { Link } from "@/components/ui";
 </script>
 
-<nav aria-label="Основная навигация сайта">
-  <ul class="glass rounded-full pt-2 pb-1.5 px-5 flex gap-0.5 uppercase">
+<nav aria-label="Основная навигация сайта" class="max-xl:hidden">
+  <ul class="h-11 pt-0.5 glass rounded-full px-5 flex gap-1 uppercase items-center">
     <li>
       <Link href="/services" variant="navlink" text="Услуги" />
     </li>
@@ -21,3 +21,9 @@
     </li>
   </ul>
 </nav>
+
+<style>
+  ul {
+    font-size: 16px;
+  }
+</style>

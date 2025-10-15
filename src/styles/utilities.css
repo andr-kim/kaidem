@@ -3,9 +3,9 @@
 }
 
 @utility main-top-padding {
-  padding-top: clamp(2.5rem, calc(2.5rem + ((1vw - 0.2rem) * 4.6429)), 5.75rem);
+  padding-top: clamp(3.25rem, calc(3.25rem + ((1vw - 0.2rem) * 3.9286)), 6rem);
 }
 
 @utility glass {
-  @apply bg-stone-50/10 backdrop-blur-md border-1 border-stone-300/20;
+  @apply bg-stone-950/10 backdrop-blur-lg border-1 border-stone-50/10;
 }

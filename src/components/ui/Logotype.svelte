@@ -1,8 +1,7 @@
 <script lang="ts">
-  // Без пропсов, всё управляется темой
 </script>
 
-<a href="/" aria-label="Ссылка — на главную страницу">
+<a href="/" aria-label="Ссылка — на главную страницу" class="w-fit">
   <svg width="152" height="28" viewBox="0 0 152 28" fill="none" xmlns="http://www.w3.org/2000/svg">
   <path fill-rule="evenodd" clip-rule="evenodd" d="M8.75 5.25H0V0H14V7.04064C14 15.7085 20.1858 22.75 28.7733 22.75H35V28H28.7733C17.0933 28 8.75 18.6416 8.75 7.07143V5.25ZM10.5 28H0V22.75H10.5V28ZM19.25 5.25H35V4.63592e-08L19.25 4.56348e-08V5.25Z" fill="#E13030" style="fill:#E13030;fill:color(display-p3 0.8824 0.1882 0.1882);fill-opacity:1;"/>
   <path d="M55.3789 28L49.5152 15.4651H46.8277V28H43V0H46.8277V12.1279H49.5152L55.4603 0H59.4916L52.6914 13.5116L59.5731 28H55.3789Z" fill="currentColor" style="fill:currentColor;fill-opacity:1;"/>
@@ -17,7 +16,7 @@
 <style>
   svg {
     width: auto;
-    height: clamp(1rem, calc(1rem + ((1vw - 0.2rem) * 1.0714)), 1.75rem);
+    height: clamp(1.5rem, calc(1.5rem + ((1vw - 0.2rem) * 0.3571)), 1.75rem);
     color: var(--color-secondary);
   }
 </style>
