@@ -18,7 +18,6 @@
       if (currentTheme === "auto") applyTheme();
     });
 
-    // ✅ закрываем меню при клике вне блока
     const handleClickOutside = (event: MouseEvent | TouchEvent) => {
       if (menuOpen && container && !container.contains(event.target as Node)) {
         menuOpen = false;
@@ -77,7 +76,7 @@
   }
 </script>
 
-<!-- 🔹 Весь блок с ref для кликов вне -->
+<!-- 🔹 Контейнер с ref -->
 <div
   bind:this={container}
   class="relative justify-self-end"
@@ -100,7 +99,7 @@
 
   {#if menuOpen}
     <div
-      class="absolute right-0 top-full translate-y-2 w-28 rounded-lg glass text-sm text-white backdrop-blur-lg shadow-lg z-10"
+      class="absolute right-0 top-full translate-y-2 w-28 rounded-lg glass text-md text-white backdrop-blur-lg shadow-lg z-10"
       role="menu"
       tabindex="0"
       aria-label="Theme selection"
@@ -108,25 +107,25 @@
       on:mouseleave={handleMouseLeave}
     >
       <button
-        class="w-full px-3 py-2 text-left hover:bg-white/10 rounded-t-lg transition-colors"
+        class={`w-full px-4 py-3 text-left uppercase rounded-t-lg transition-colors ${currentTheme === 'light' ? 'bg-white/50' : 'hover:bg-white/10'}`}
         on:click={() => setTheme('light')}
         role="menuitem"
       >
-        ☀️ День
+        День
       </button>
       <button
-        class="w-full px-3 py-2 text-left hover:bg-white/10 transition-colors"
+        class={`w-full px-4 py-3 text-left uppercase transition-colors ${currentTheme === 'dark' ? 'bg-white/50' : 'hover:bg-white/10'}`}
         on:click={() => setTheme('dark')}
         role="menuitem"
       >
-        🌙 Ночь
+        Ночь
       </button>
       <button
-        class="w-full px-3 py-2 text-left hover:bg-white/10 rounded-b-lg transition-colors"
+        class={`w-full px-4 py-3 text-left uppercase rounded-b-lg transition-colors ${currentTheme === 'auto' ? 'bg-white/50' : 'hover:bg-white/10'}`}
         on:click={() => setTheme('auto')}
         role="menuitem"
       >
-        🖥 Авто
+        Авто
       </button>
     </div>
   {/if}
