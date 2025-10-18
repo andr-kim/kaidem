@@ -8,7 +8,7 @@
       <Link href="/services" variant="navlink" text="Услуги" />
     </li>
     <li>
-      <Link href="/cases" variant="navlink" text="Кейсы" />
+      <Link href="/projects" variant="navlink" text="Проекты" />
     </li>
     <li>
       <Link href="/about" variant="navlink" text="Наш клан" />
