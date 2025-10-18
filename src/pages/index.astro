@@ -1,11 +1,26 @@
 ---
 import { MainLayout } from "@/layouts";
-import { HeroSection, AboutSection } from "@/components/sections/home";
+import {
+  HeroSection,
+  ServicesSection,
+  CasesSection,
+  OurPrinciplesSection,
+  OurClanSection,
+  ClientsSection,
+  FromJournalSection,
+} from "@/components/sections/home";
+import { CTASection } from "@/components/sections/common"
 ---
 
 <MainLayout title="Home page">
   <main>
     <HeroSection />
-    <AboutSection />
+    <ServicesSection />
+    <CasesSection />
+    <OurPrinciplesSection />
+    <OurClanSection />
+    <ClientsSection />
+    <FromJournalSection />
+    <CTASection />
   </main>
 </MainLayout>
