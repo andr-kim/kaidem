@@ -10,7 +10,7 @@
 
   onMount(() => {
     prefersDark = window.matchMedia("(prefers-color-scheme: dark)");
-    const stored = (localStorage.getItem("theme") as Theme | null) || "auto";
+    const stored = (localStorage.getItem("theme") as Theme | null) || "light";
     currentTheme = stored;
     applyTheme();
 

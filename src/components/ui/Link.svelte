@@ -25,12 +25,12 @@
   const rel = external ? "noopener noreferrer" : undefined;
 
   const base =
-    "tracking-wider inline-flex items-center transition-colors duration-200 font-medium focus-visible:outline-none";
+    "font-semibold tracking-wider inline-flex items-center transition-colors duration-200 focus-visible:outline-none";
 
   const variants: Record<NonNullable<Props["variant"]>, string> = {
     link: "py-2 text-blue-600 hover:text-blue-700 underline-offset-4 hover:underline",
     navlink:
-      "p-1 text-muted-foreground hover:text-foreground data-[active=true]:text-foreground",
+      "text-foreground hover:text-primary data-[active=true]:text-primary",
     button:
       "px-4 py-2 rounded-full bg-primary text-white hover:bg-primary/90 active:scale-[0.98]",
   };

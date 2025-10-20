@@ -3,7 +3,7 @@
 </script>
 
 <nav aria-label="Основная навигация сайта" class="max-xl:hidden">
-  <ul class="h-11 pt-0.5 glass rounded-full px-5 flex gap-1 uppercase items-center">
+  <ul class="flex flex-col gap-4">
     <li>
       <Link href="/services" variant="navlink" text="Услуги" />
     </li>
@@ -21,9 +21,3 @@
     </li>
   </ul>
 </nav>
-
-<style>
-  ul {
-    font-size: 16px;
-  }
-</style>

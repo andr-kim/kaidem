@@ -5,9 +5,9 @@
 
 export const themeInline = `
   document.documentElement.classList.toggle(
-    'dark',
-    localStorage.theme === 'dark' ||
+    'light',
+    localStorage.theme === 'light' ||
       (!('theme' in localStorage) &&
-        window.matchMedia('(prefers-color-scheme: dark)').matches)
+        window.matchMedia('(prefers-color-scheme: light)').matches)
   );
 `;

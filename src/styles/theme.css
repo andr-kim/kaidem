@@ -2,8 +2,7 @@
 
 @theme {
   --font-*: initial;
-  --font-primary-ru: "Sofia", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-  --font-primary-en: "Sofia Latin", "sans-serif";
+  --font-primary: "Involve", ui-sans-serif, system-ui, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
 
   --color-background: var(--color-stone-50);
   --color-foreground: var(--color-black);
