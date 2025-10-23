@@ -17,7 +17,7 @@
       <Link href="/journal" variant="navlink" text="Журнал" />
     </li>
     <li>
-      <Link href="/contact" variant="navlink" text="Контакты" />
+      <Link href="/contacts" variant="navlink" text="Контакты" />
     </li>
   </ul>
 </nav>
