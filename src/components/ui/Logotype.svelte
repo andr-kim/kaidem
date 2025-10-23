@@ -1,7 +1,7 @@
 <script lang="ts">
 </script>
 
-<a href="/" aria-label="Ссылка — на главную страницу" class="w-fit">
+<a href="/" aria-label="Ссылка — на главную страницу" class="w-fit h-fit">
 <svg width="60" height="71" viewBox="0 0 60 71" fill="none" xmlns="http://www.w3.org/2000/svg">
 <path d="M6.81407 71L3.58635 64.2849H2.10698V71H0V56H2.10698V62.4971H3.58635L6.8589 56H9.07796L5.3347 63.2384L9.12279 71H6.81407Z" fill="black" style="fill:black;fill-opacity:1;"/>
 <path fill-rule="evenodd" clip-rule="evenodd" d="M17.1327 67.1628L18.0741 71H20.226L16.4603 56H13.5464L9.75828 71H11.8653L12.7843 67.1628H17.1327ZM15.0257 58.2238H14.8913L13.2101 65.3968H16.7068L15.0257 58.2238Z" fill="black" style="fill:black;fill-opacity:1;"/>
