@@ -6,7 +6,8 @@
 
   --color-background: var(--color-stone-50);
   --color-foreground: var(--color-black);
-  --color-primary: #e13030;
+  --color-primary: #E13030;
+  --color-primary-hover: #E05151;
   --color-secondary: var(--color-black);
 
   --color-muted-foreground: var(--color-stone-500);
@@ -27,7 +28,8 @@
 .dark {
   --color-background: var(--color-stone-950);
   --color-foreground: var(--color-white);
-  --color-primary: #e13030;
+  --color-primary: #E13030;
+  --color-primary-hover: #E05151;
   --color-secondary: var(--color-stone-100);
 
   --color-muted-foreground: var(--color-stone-400);
