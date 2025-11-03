@@ -8,7 +8,7 @@
   }
 
   h1 {
-    @apply font-semibold;
+    @apply font-bold;
   }
 
   button {

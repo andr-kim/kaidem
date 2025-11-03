@@ -5,15 +5,12 @@ import { Button, ScrollDown } from "@/components/ui";
 <section class="section-h-adaptive">
   <div class="main-container grid grid-rows-[1fr_2fr_1fr]">
     <div></div>
-    <div class="grid grid-cols-2 items-center">
-      <h1 class="text-5xl text-end w-fit">
+    <div class="flex items-center justify-center">
+      <h1 class="text-end w-fit">
         <span>Создаем цифровые</span>
         <span class="block">продукты, приносящие</span>
         <span>результат</span>
       </h1>
-      <div class="bg-primary h-full flex items-center justify-center rounded-md">
-        Showreel
-      </div>
     </div>
     <div class="grid grid-cols-3 items-end">
       <p class="text-2xl font-semibold max-w-fit">
@@ -28,3 +25,14 @@ import { Button, ScrollDown } from "@/components/ui";
     </div>
   </div>
 </section>
+
+<style>
+  h1 {
+    font-size: clamp(
+      1.5rem,
+      calc(1.5rem + ((1vw - 0.23437999999999998rem) * 4.3936)),
+      7.5rem
+    );
+    line-height: 1;
+  }
+</style>
