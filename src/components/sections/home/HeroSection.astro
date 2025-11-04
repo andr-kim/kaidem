@@ -1,38 +1,29 @@
 ---
-import { Button, ScrollDown } from "@/components/ui";
+import { LineVertical, Showreel, Button } from "@/components/ui";
 ---
 
 <section class="section-h-adaptive">
-  <div class="main-container grid grid-rows-[1fr_2fr_1fr]">
-    <div></div>
+  <div class="main-container grid grid-rows-[1fr_auto_1fr]">
+    <div class="flex justify-center pb-10">
+      <LineVertical duration={1500} client:load />
+    </div>
     <div class="flex items-center justify-center">
-      <h1 class="text-end w-fit">
+      <h1
+        class="text-end w-fit text-[clamp(1.5rem,calc(1.5rem+((1vw-0.23437999999999998rem)*4.3936)),7.5rem)] leading-[1]"
+      >
         <span>Создаем цифровые</span>
         <span class="block">продукты, приносящие</span>
         <span>результат</span>
       </h1>
     </div>
-    <div class="grid grid-cols-3 items-end">
-      <p class="text-2xl font-semibold max-w-fit">
-        От идеи до роста <br /> бизнеса – дизайн, <br /> разработка, стратегия.
-      </p>
-      <div class="flex justify-center">
-        <ScrollDown />
+    <div class="grid grid-cols-3 items-end pt-10">
+      <Showreel />
+      <div class="flex justify-center h-full">
+        <LineVertical direction="bottom" duration={1500} client:load />
       </div>
       <div class="flex justify-end">
-        <Button client:load text="Обсудить проект" />
+        <Button text="Обсудить проект" showIcon={true} icon="right" />
       </div>
     </div>
   </div>
 </section>
-
-<style>
-  h1 {
-    font-size: clamp(
-      1.5rem,
-      calc(1.5rem + ((1vw - 0.23437999999999998rem) * 4.3936)),
-      7.5rem
-    );
-    line-height: 1;
-  }
-</style>

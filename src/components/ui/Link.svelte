@@ -25,10 +25,10 @@
   const rel = external ? "noopener noreferrer" : undefined;
 
   const base =
-    "font-semibold text-[clamp(1rem,calc(1rem+((1vw-0.64rem)*0.2604)),1.25rem)] inline-flex items-center transition-colors duration-200 focus-visible:outline-none";
+    "font-semibold text-[clamp(1rem,calc(1rem+((1vw-0.64rem)*0.2604)),1.25rem)] inline-flex transition-colors duration-200 focus-visible:outline-none";
 
   const variants: Record<NonNullable<Props["variant"]>, string> = {
-    link: "py-2 text-blue-600 hover:text-blue-700 underline-offset-4 hover:underline",
+    link: "text-foreground hover:text-primary",
     navlink:
       "text-foreground hover:text-primary data-[active=true]:text-primary",
     button:
