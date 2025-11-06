@@ -1,7 +1,7 @@
 <script lang="ts">
   import { onMount } from "svelte";
 
-  export let color = "bg-muted";
+  export let color = "bg-border";
   export let duration = 1000; // миллисекунды
   export let direction: "top" | "bottom" = "top"; // 🔹 новое свойство
 
